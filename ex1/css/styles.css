@@ -49,7 +49,9 @@ section {
 }
 
 .section-1 .inner {
-  width: 640px;
+  max-width: 800px;
+  width:80%;
+  height: auto;
   margin: 0 auto;
   padding: 48px;
   background: rgba(255,255, 255, .75);
@@ -59,7 +61,8 @@ section {
 
 .wrapper {
   margin: 0 auto;
-  width: 940px;
+  max-width: 940px;
+  width:80%;
 }
 
 footer {

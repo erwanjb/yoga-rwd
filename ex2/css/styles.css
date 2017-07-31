@@ -25,6 +25,7 @@ h1 {
 
 section {
   padding: 24px 0;
+  text-align: center;
 }
 footer {
   text-align: center;
@@ -47,4 +48,13 @@ quote {
 }
 .img-float + p {
   margin: 0 0 24px;
+}
+.section-2 img:last-child{
+  max-width: 1200px;
+  width:80%;
+  height: auto;
+}
+.section-2 img:nth-last-child(2){
+  max-width: 1200px;
+  width:80%;
 }
